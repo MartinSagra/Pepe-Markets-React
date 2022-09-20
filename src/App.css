@@ -1,12 +1,12 @@
 .App {
   text-align: center;
+  height: 100vh;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -22,7 +22,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: black;
+  color: white;
 }
 
 .App-link {
@@ -36,50 +36,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-
-/*                        NavBar                           */
-.navBar{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  border: solid 0px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  box-shadow: 0px 9px 81px -5px rgba(163,19,189,0.65);
-  -webkit-box-shadow: 0px 9px 81px -5px rgba(163,19,189,0.65);
-  -moz-box-shadow: 0px 9px 81px -5px rgba(163,19,189,0.65);
-  position: fixed;
-  top: 0;
-  width: 100vw;
-  z-index: 5;
-  height: 5rem;
-}
-.miMarca{
-  display: flex;
-  justify-content: center;
-  justify-content: center;
-  text-decoration: none;
-  color: black;
-}
-.logoNavBar{
-  width: 30px;
-}
-.ulNavBar{
-  list-style: none;
-  display: flex;
-}
-.ulNavBar li{
-  list-style: none;
-  margin: 0px 7px 0px 7px;
-}
-.ulNavBar li a{
-  text-decoration: none;
-  color: black;
-}
-.ulNavBar li:hover{
-  transform: scale(1.1,1.1);
-  transition: all 500ms;
-  text-decoration: underline;
 }
