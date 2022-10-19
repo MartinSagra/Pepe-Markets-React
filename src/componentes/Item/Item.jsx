@@ -1,18 +1,17 @@
 import './Item.style.css'
-import ItemCounter from "../ItemCounter/ItemCounter"
 
-const Item = ({img, articulo, precio, id, marca, valorInicial, stockProductos}) => {
+const rutaInicial = '../img/'
+const Item = ({img, articulo, precio, id, marca}) => {
   return (
     <>
         <div className="card" key={id} role="button">
-            <img src={img} alt={articulo} width={'200px'}/>
+            <img src={rutaInicial + img} alt={articulo} width={'200px'}/>
             <div className="card-body">
                 <h5>{articulo}</h5>
                 <p>uS${precio}</p>
                 <span style={{display: 'none'}}>{marca}</span>
-                <hr/>
-                <ItemCounter inicial={valorInicial} stock={stockProductos}/>
             </div>
+            <div className='btn btn-detalles'>Ver detalles</div>
         </div>
     </>
   )

@@ -5,7 +5,6 @@ import CartWidget from '../CartWidget/CartWidget'
 
 
 const Navbar = () => {
-  // const filtrarMarca = data.filter(product=>product.id === parseInt(idParams)
   
   return (
     <div className='contenedorNavBar'>
@@ -35,13 +34,13 @@ const Navbar = () => {
                     <li><div className="dropdown-item filtroGoogle" onClick={console.log()}>Google</div></li>
                   </Link>
                   <Link to={"category/huawei"} style={{ textDecoration: 'none'}}>
-                   <li><div className="dropdown-item filtroHuawei">Huawei</div></li>
+                    <li><div className="dropdown-item filtroHuawei">Huawei</div></li>
                   </Link>
                   <Link to={"category/apple"} style={{ textDecoration: 'none'}}>
-                   <li><div className="dropdown-item filtroApple">Apple</div></li>
+                    <li><div className="dropdown-item filtroApple">Apple</div></li>
                   </Link>
                   <Link to={"category/nothing"} style={{ textDecoration: 'none'}}>
-                   <li><div className="dropdown-item filtroNothing">Nothing</div></li>
+                    <li><div className="dropdown-item filtroNothing">Nothing</div></li>
                   </Link>
                   <Link to={"category/oneplus"} style={{ textDecoration: 'none'}}>
                     <li><div className="dropdown-item filtroOnePlus">OnePlus</div></li>
@@ -57,11 +56,6 @@ const Navbar = () => {
                     <li><div className="dropdown-item sinFiltro">Todas las marcas</div></li>
                   </Link>
                 </ul>
-              </li>
-              <li className="nav-item d-flex justify-content-center align-content-center">
-                <Link to={"/contacto"} style={{ textDecoration: 'none'}}>
-                  <div className="nav-link active" aria-current="page" role="button">Contacto</div>
-                </Link>
               </li>
             </ul>
             <div>
