@@ -1,3 +1,10 @@
+#### _Tech_
+- React.js
+#### _Main libraries used in the project_
+- Bootstrap
+- SweetAlert
+- Firebase
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
